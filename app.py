@@ -35,22 +35,8 @@ h1, h2, h3 {
     text-align: center;
 }
 
-.stButton>button {
-    background-color: #2563eb;
+[data-testid="stMetricValue"] {
     color: white;
-    border-radius: 10px;
-    height: 3em;
-    width: 100%;
-    font-size: 18px;
-    font-weight: bold;
-}
-
-.stButton>button:hover {
-    background-color: #1d4ed8;
-}
-
-[data-testid="stSidebar"] {
-    background-color: #111827;
 }
 
 </style>
