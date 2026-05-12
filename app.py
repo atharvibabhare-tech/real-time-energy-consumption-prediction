@@ -49,14 +49,14 @@ h1, h2, h3 {
 
 /* Labels */
 label, .stSelectbox label, .stNumberInput label, .stSlider label {
-    color: white !important;
+    color: darkblue !important;
     font-weight: bold;
 }
 
 /* Button */
 .stButton>button {
     background-color: royalblue;
-    color: darkblue;
+    color: white;
     border-radius: 10px;
     height: 3em;
     width: 100%;
