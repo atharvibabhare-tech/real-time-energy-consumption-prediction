@@ -42,8 +42,21 @@ h1, h2, h3 {
     background-color: black;
 }
 
-/* Sidebar Text */
-[data-testid="stSidebar"] * {
+/* Sidebar text */
+[data-testid="stSidebar"] label {
+    color: white !important;
+    font-weight: bold;
+}
+
+/* Input box text */
+.stNumberInput input,
+.stSelectbox div,
+.stTextInput input {
+    color: black !important;
+}
+
+/* Slider text */
+.stSlider label {
     color: white !important;
 }
 
