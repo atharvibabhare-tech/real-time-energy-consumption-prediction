@@ -62,7 +62,7 @@ h1, h2, h3 {
 
 /* Labels */
 label, .stSelectbox label, .stNumberInput label, .stSlider label {
-    color: darkblue !important;
+    color: white !important;
     font-weight: bold;
 }
 
