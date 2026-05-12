@@ -25,16 +25,35 @@ model = pickle.load(open("model.pkl", "rb"))
 st.markdown("""
 <style>
 
+/* Main App */
 .stApp {
     background-color: midnightblue;
     color: white;
 }
 
+/* Headings */
 h1, h2, h3 {
     color: deepskyblue;
     text-align: center;
 }
 
+/* Sidebar */
+[data-testid="stSidebar"] {
+    background-color: black;
+}
+
+/* Sidebar Text */
+[data-testid="stSidebar"] * {
+    color: white !important;
+}
+
+/* Labels */
+label, .stSelectbox label, .stNumberInput label, .stSlider label {
+    color: white !important;
+    font-weight: bold;
+}
+
+/* Button */
 .stButton>button {
     background-color: royalblue;
     color: white;
@@ -51,17 +70,23 @@ h1, h2, h3 {
     color: white;
 }
 
-[data-testid="stSidebar"] {
-    background-color: black;
-}
-
+/* Metric Value */
 [data-testid="stMetricValue"] {
     color: white;
+    font-size: 28px;
+    font-weight: bold;
 }
 
+/* Metric Label */
 [data-testid="stMetricLabel"] {
     color: deepskyblue;
     font-weight: bold;
+}
+
+/* Success Message */
+.stSuccess {
+    background-color: royalblue;
+    color: white;
 }
 
 </style>
@@ -74,7 +99,7 @@ h1, h2, h3 {
 st.title("⚡ Real-Time Energy Consumption Prediction")
 
 st.markdown(
-    "<h3 style='text-align:center;'>AI-Powered Energy Forecasting Dashboard</h3>",
+    "<h3>AI-Powered Energy Forecasting Dashboard</h3>",
     unsafe_allow_html=True
 )
 
@@ -169,6 +194,6 @@ st.write("")
 st.markdown("---")
 
 st.markdown(
-    "<center>Created by Atharvi 💙</center>",
+    "<center style='color:white;'>Created by Atharvi 💙</center>",
     unsafe_allow_html=True
 )
