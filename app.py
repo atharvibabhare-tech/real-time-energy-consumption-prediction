@@ -26,17 +26,42 @@ st.markdown("""
 <style>
 
 .stApp {
-    background-color: #0f172a;
+    background-color: midnightblue;
     color: white;
 }
 
 h1, h2, h3 {
-    color: #38bdf8;
+    color: deepskyblue;
     text-align: center;
+}
+
+.stButton>button {
+    background-color: royalblue;
+    color: white;
+    border-radius: 10px;
+    height: 3em;
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+}
+
+.stButton>button:hover {
+    background-color: dodgerblue;
+    color: white;
+}
+
+[data-testid="stSidebar"] {
+    background-color: black;
 }
 
 [data-testid="stMetricValue"] {
     color: white;
+}
+
+[data-testid="stMetricLabel"] {
+    color: deepskyblue;
+    font-weight: bold;
 }
 
 </style>
