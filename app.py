@@ -92,7 +92,7 @@ label, .stSelectbox label, .stNumberInput label, .stSlider label {
 
 /* Metric Label */
 [data-testid="stMetricLabel"] {
-    color: deepskyblue;
+    color: white;
     font-weight: bold;
 }
 
