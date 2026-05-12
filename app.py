@@ -39,7 +39,7 @@ h1, h2, h3 {
 
 /* Sidebar */
 [data-testid="stSidebar"] {
-    background-color: black;
+    background-color: skyblue;
 }
 
 /* Sidebar text */
