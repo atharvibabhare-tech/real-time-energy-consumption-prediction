@@ -56,7 +56,7 @@ label, .stSelectbox label, .stNumberInput label, .stSlider label {
 /* Button */
 .stButton>button {
     background-color: royalblue;
-    color: white;
+    color: darkblue;
     border-radius: 10px;
     height: 3em;
     width: 100%;
